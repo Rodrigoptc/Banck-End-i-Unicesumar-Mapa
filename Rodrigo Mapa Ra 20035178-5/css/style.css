@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ nav, footer
+{
+    text-align: center;
+    background-color: #069;
+    padding: 8px 10px;
+    display: flexbox;
+   
+}
+
+.menu 
+{
+    text-align: center;
+    padding: auto;
+    width: auto;
+    margin:0px;
+    list-style:none;
+    font:80% Tahoma;
+    display: inline; 
+}
+
+.menu li 
+{
+    display: inline-block;
+}
+
+.menu li a
+{
+    
+    color: white;  
+    text-decoration: none;
+    border-bottom:3px solid #EDEDED;
+    padding: 2px 10px;
+    float: center;
+}
+
+.menu li a:hover 
+{
+    background-color:#555353;
+    
+    border-bottom:3px solid #EA0000;
+}
+
+section
+{
+    max-width:960px;
+    margin: 20px auto;
+    padding: 0 2%;
+    text-align: center;
+}
+
+h2
+{
+    text-align: center;
+    background-color: #069;
+    color: white;
+    padding: 8px 10px;
+}
+p
+{
+    color:black;
+    margin-top: 10px;
+    font-size: 16p;
+}
+.vitrine
+{
+    width: 300px;
+    display: flex;
+    list-style:none;
+}
+.vitrine li
+{
+    margin: 10px;
+    border: 1px solid #131212;
+}
+ .vitrine li img
+ {
+     width: 150px;
+     height: 150px;
+ }
+ .vitrine li img :hover
+ {
+     background-color: #069;
+ }
+ .fachada
+ 
+ {
+     text-align: center;
+     
+ }
+
+ 
+ .slider {
+    display: block;
+    height: 293px;
+    width: 600px;
+    margin: auto;
+    margin-top: 20px;
+    position: relative;
+}
+
+.slider li {
+    list-style: none;
+    position: absolute;
+}
+
+.slider img {
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    vertical-align: top;
+}
